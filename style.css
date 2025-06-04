@@ -1,0 +1,150 @@
+:root {
+    --text-color: #1a1c20;
+    --link-color: #ffffff;
+    font-size: 17px; /* Set the base font size */
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: "Steph";
+    src: url("fonts/steph-font.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Steph";
+    src: url("fonts/steph-font-bold.ttf");
+    font-weight: bold;
+}
+
+header {
+    font-size: 45px;
+    background-color: lightpink
+}
+
+body {
+    font-family: 'Steph', sans-serif;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, white 0%, #F2C4F5 100%);
+}
+
+#greeting {
+    margin-top: 20px;
+    font-size: 50px;
+    color: rgba(136, 60, 123, 0.664);
+    position: relative;
+    left: 850px;
+}
+
+button {
+    border-radius: 8px;
+    min-width: 175px;
+    max-width: 400px;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+    white-space: nowrap;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: transform 0.1s ease;
+}
+
+button:hover {
+    scale: 1.05;
+}
+
+img {
+    width: 800px;
+    position: relative;
+    left: 600px;
+}
+
+#homebtn {
+    background-color: #7f5ae6;
+    position: relative;
+    left: 10px;
+}
+
+
+#homebtn:hover {
+    background-color: #6c4acb;
+}
+
+#messagebtn {
+    background-color: #3d57e9;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+#messagebtn:hover {
+    background-color: #3449c7;
+}
+
+#whybtn {
+    background-color: #c99300;
+    position: relative;
+    left: 10px;
+    top: 20px;
+}
+
+#whybtn:hover {
+    background-color: #b88a00;
+}
+
+#messageText {
+    position: relative;
+    font-size: 20px;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 80vw;
+}
+
+.envelopeParagraph {
+    position: relative;
+    left: 250px;
+    top: 130px;
+    font-size: 20px;
+    max-width: 60vw;
+}
+
+.container {
+  background-color: lightpink; /* Same as header */
+  height: 95vh; /* Full height */
+  top: 43px;
+  width: 200px; /* Or your desired width */
+  padding: 20px;
+  position: absolute
+}
+
+.buttons {
+    position: relative;
+    right : 15px;
+    top : 50px;
+    z-index: 1;
+}
+
+#whyText{
+    position: relative;
+    left: 250px;
+    top: 130px;
+    font-size: 25px;
+    max-width: 60vw;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+}
+
+#flower {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    left: 32px;
+    top: 10px;
+}
